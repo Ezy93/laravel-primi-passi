@@ -7,8 +7,22 @@
     <title>laravel primi passi</title>
 </head>
 <body>
-    <main>
-        
-    </main>
+    
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="{{route('home')}}">Home</a>
+                    </li>
+                    <li>
+                        <a href="{{route('aboutUs')}}">About Us</a>
+                    </li>
+                    <li>
+                        <a href="{{route('contacts')}}">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
 </body>
 </html>

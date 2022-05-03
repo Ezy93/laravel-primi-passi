@@ -15,6 +15,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('bonusHome');
-});
+})-> name('home');
+
+Route::get('/aboutUs', function () {
+    return view('aboutUs');
+})-> name('aboutUs');
+
+Route::get('/contacts', function () {
+    return view('contacts');
+})-> name('contacts');
+
 
 
