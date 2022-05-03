@@ -7,6 +7,12 @@
     <title>laravel primi passi</title>
 </head>
 <body>
-    <h1>hello world!!!</h1>
+    <main>
+        <ul>
+            @foreach ($stringhe as $String)
+                <li>{{$String}}</li>
+            @endforeach
+        </ul>
+    </main>
 </body>
 </html>
