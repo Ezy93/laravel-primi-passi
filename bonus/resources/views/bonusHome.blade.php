@@ -8,11 +8,7 @@
 </head>
 <body>
     <main>
-        <ul>
-            @foreach ($stringhe as $String)
-                <li>{{$String}}</li>
-            @endforeach
-        </ul>
+        
     </main>
 </body>
 </html>

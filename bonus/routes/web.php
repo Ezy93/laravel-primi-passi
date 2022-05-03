@@ -14,19 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $data = [
-        'stringhe' =>[
-        'ciao',
-        'sono',
-        'un',
-        'array',
-        'di',
-        'stringhe',
-        'stampato',
-        'con',
-        'un',
-        'foreach',
-        ]
-    ];
-    return view('home', $data);
+    return view('bonusHome');
 });
+
+
